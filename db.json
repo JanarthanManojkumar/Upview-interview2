@@ -1,0 +1,183 @@
+{
+    "ecommerce": {
+      "name": "e-commerce",
+      "logo": "https://upview-images.s3.ap-south-1.amazonaws.com/ecommerce-practical/logo.png",
+      "currency": {
+        "type": "USD",
+        "abb": "$"
+      },
+      "products": [
+        {
+          "id": "001",
+          "name": "Gaming Headphones",
+          "description": "5 Colors available",
+          "price": 239,
+          "status": "Available",
+          "rating": 4,
+          "ratedBy": 259,
+          "image": "https://upview-images.s3.ap-south-1.amazonaws.com/ecommerce-practical/1.png"
+        },
+        {
+          "id": "002",
+          "name": "Macbook Pro 13in",
+          "description": "256, 8 core GPU, 8GB",
+          "price": 1099,
+          "status": "Available",
+          "rating": 4,
+          "ratedBy": 121,
+          "image": "https://upview-images.s3.ap-south-1.amazonaws.com/ecommerce-practical/2.png"
+        },
+        {
+          "id": "003",
+          "name": "Homepod Mini",
+          "description": "5 Colors available",
+          "price": 59,
+          "status": "Available",
+          "rating": 3,
+          "ratedBy": 112,
+          "image": "https://upview-images.s3.ap-south-1.amazonaws.com/ecommerce-practical/3.png"
+        },
+        {
+          "id": "004",
+          "name": "Laptop Sleeve MacBook",
+          "description": "Organic cotton, fairtrade certified",
+          "price": 67,
+          "status": "Out of stock",
+          "rating": 4,
+          "ratedBy": 321,
+          "image": "https://upview-images.s3.ap-south-1.amazonaws.com/ecommerce-practical/4.png"
+        },
+        {
+          "id": "005",
+          "name": "i7s Airpods",
+          "description": "Full set with box and charging case",
+          "price": 199,
+          "status": "Available",
+          "rating": 4,
+          "ratedBy": 52,
+          "image": "https://upview-images.s3.ap-south-1.amazonaws.com/ecommerce-practical/5.png"
+        },
+        {
+          "id": "006",
+          "name": "Wallets for Men",
+          "description": "Pure leather, 100% waterproof",
+          "price": 52,
+          "status": "Out of stock",
+          "rating": 4,
+          "ratedBy": 72,
+          "image": "https://upview-images.s3.ap-south-1.amazonaws.com/ecommerce-practical/6.png"
+        },
+        {
+          "id": "007",
+          "name": "Ladies Handbag",
+          "description": "Fashion handbags simple large-capacity",
+          "price": 240,
+          "status": "Available",
+          "rating": 4,
+          "ratedBy": 124,
+          "image": "https://upview-images.s3.ap-south-1.amazonaws.com/ecommerce-practical/7.png"
+        },
+        {
+          "id": "008",
+          "name": "Italian Male Footwear",
+          "description": "Comfortable leather shoes for men",
+          "price": 114,
+          "status": "Available",
+          "rating": 4,
+          "ratedBy": 32,
+          "image": "https://upview-images.s3.ap-south-1.amazonaws.com/ecommerce-practical/8.png"
+        }
+      ]
+    }
+  }{
+    "ecommerce": {
+      "name": "e-commerce",
+      "logo": "https://upview-images.s3.ap-south-1.amazonaws.com/ecommerce-practical/logo.png",
+      "currency": {
+        "type": "USD",
+        "abb": "$"
+      },
+      "products": [
+        {
+          "id": "001",
+          "name": "Gaming Headphones",
+          "description": "5 Colors available",
+          "price": 239,
+          "status": "Available",
+          "rating": 4,
+          "ratedBy": 259,
+          "image": "https://upview-images.s3.ap-south-1.amazonaws.com/ecommerce-practical/1.png"
+        },
+        {
+          "id": "002",
+          "name": "Macbook Pro 13in",
+          "description": "256, 8 core GPU, 8GB",
+          "price": 1099,
+          "status": "Available",
+          "rating": 4,
+          "ratedBy": 121,
+          "image": "https://upview-images.s3.ap-south-1.amazonaws.com/ecommerce-practical/2.png"
+        },
+        {
+          "id": "003",
+          "name": "Homepod Mini",
+          "description": "5 Colors available",
+          "price": 59,
+          "status": "Available",
+          "rating": 3,
+          "ratedBy": 112,
+          "image": "https://upview-images.s3.ap-south-1.amazonaws.com/ecommerce-practical/3.png"
+        },
+        {
+          "id": "004",
+          "name": "Laptop Sleeve MacBook",
+          "description": "Organic cotton, fairtrade certified",
+          "price": 67,
+          "status": "Out of stock",
+          "rating": 4,
+          "ratedBy": 321,
+          "image": "https://upview-images.s3.ap-south-1.amazonaws.com/ecommerce-practical/4.png"
+        },
+        {
+          "id": "005",
+          "name": "i7s Airpods",
+          "description": "Full set with box and charging case",
+          "price": 199,
+          "status": "Available",
+          "rating": 4,
+          "ratedBy": 52,
+          "image": "https://upview-images.s3.ap-south-1.amazonaws.com/ecommerce-practical/5.png"
+        },
+        {
+          "id": "006",
+          "name": "Wallets for Men",
+          "description": "Pure leather, 100% waterproof",
+          "price": 52,
+          "status": "Out of stock",
+          "rating": 4,
+          "ratedBy": 72,
+          "image": "https://upview-images.s3.ap-south-1.amazonaws.com/ecommerce-practical/6.png"
+        },
+        {
+          "id": "007",
+          "name": "Ladies Handbag",
+          "description": "Fashion handbags simple large-capacity",
+          "price": 240,
+          "status": "Available",
+          "rating": 4,
+          "ratedBy": 124,
+          "image": "https://upview-images.s3.ap-south-1.amazonaws.com/ecommerce-practical/7.png"
+        },
+        {
+          "id": "008",
+          "name": "Italian Male Footwear",
+          "description": "Comfortable leather shoes for men",
+          "price": 114,
+          "status": "Available",
+          "rating": 4,
+          "ratedBy": 32,
+          "image": "https://upview-images.s3.ap-south-1.amazonaws.com/ecommerce-practical/8.png"
+        }
+      ]
+    }
+  }
