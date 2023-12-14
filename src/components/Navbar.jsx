@@ -2,6 +2,8 @@ import React, { useContext, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { FaShoppingCart } from 'react-icons/fa';
 import { Appcontext } from '../App';
+import { ApiFetch } from './ApiFetch';
+
 
 export const Navbar = () => {
   const { navitems, products } = useContext(Appcontext);
@@ -13,10 +15,13 @@ export const Navbar = () => {
 
   return (
     <div className='w-full h-[50px] sipa flex justify-between items-center px-2'>
-      <Link to='/'>
+     <Link to='/'>
         <img className='w-[150px] mt-7' src={navitems?.logo} alt="Logo" />
       </Link>
+
+      <ApiFetch/>
       
+     
       <div className='relative mt-7'>
         <FaShoppingCart onClick={handleClick} size={20} />
         {click && (

@@ -2,6 +2,7 @@ import React, { useContext, useEffect, useState } from 'react';
 import { useQuery } from 'react-query';
 import Axios from 'axios';
 import { Appcontext } from '../App';
+import { Home } from './Home';
 
 
 const fetchAnimeapi = async () => {
@@ -42,7 +43,7 @@ export const ApiFetch = () => {
 
   return (
     <div>
-      {products.map((product) => (
+      {/* {products.map((product) => (
         <div key={product.id}>
           <h2>{product.name}</h2>
           <p>{product.description}</p>
@@ -58,7 +59,7 @@ export const ApiFetch = () => {
           <p>Currency Type: {navitems.currency.type}</p>
           <p>Currency Abbreviation: {navitems.currency.abb}</p>
         </div>
-      )}
+      )} */}
     </div>
   );
 };
