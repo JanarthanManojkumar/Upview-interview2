@@ -2,13 +2,13 @@ import React, { useContext, useEffect, useState } from 'react';
 import { useQuery } from 'react-query';
 import Axios from 'axios';
 import { Appcontext } from '../App';
-import { Home } from './Home';
 
 
-const fetchAnimeapi = async () => {
+
+const fetchSiteapi = async () => {
   try {
     const response = await Axios.get('https://my-json-server.typicode.com/kodplex/pr-re-ec-products/db');
-    return response.data;
+       return response.data;
   } catch (error) {
     throw new Error('Failed to fetch data');
   }
@@ -18,20 +18,20 @@ export const ApiFetch = () => {
  
  const{setProducts,setNavitems,products,navitems}=useContext(Appcontext)
 
-  const { data, isLoading, isError, error } = useQuery('ecommerce', fetchAnimeapi, 
+  const { data:sitedata, isLoading, isError, error } = useQuery('ecommerce', fetchSiteapi, 
   {
     refetchOnWindowFocus:true
   });
 
   useEffect(() => {
-    if (data && data.ecommerce && data.ecommerce.products) {
-      setProducts(data.ecommerce.products);
+    if (sitedata && sitedata.ecommerce && sitedata.ecommerce.products) {
+      setProducts(sitedata.ecommerce.products);
     }
 
-    if (data && data.ecommerce) {
-      setNavitems(data.ecommerce);
+    if (sitedata && sitedata.ecommerce) {
+      setNavitems(sitedata.ecommerce);
     }
-  }, [data]);
+  }, [sitedata,setProducts,setNavitems]);
 
   if (isLoading) {
     return <div>Loading...</div>;
